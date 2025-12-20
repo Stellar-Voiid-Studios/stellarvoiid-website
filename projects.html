@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our game development projects at Stellar Voiid Studios - From featured titles to game jams and prototypes.">
+    <meta name="author" content="Stellar Voiid Studios">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://stellarvoiid.com/projects">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stellarvoiid.com/projects">
+    <meta property="og:title" content="Our Projects | Stellar Voiid Studios">
+    <meta property="og:description" content="Explore our game development projects at Stellar Voiid Studios.">
+    <meta property="og:image" content="https://stellarvoiid.com/assets/images/og-projects.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://stellarvoiid.com/projects">
+    <meta property="twitter:title" content="Our Projects | Stellar Voiid Studios">
+    <meta property="twitter:description" content="Explore our game development projects at Stellar Voiid Studios.">
+    <meta property="twitter:image" content="https://stellarvoiid.com/assets/images/og-projects.jpg">
+    
+    <title>Our Projects | Stellar Voiid Studios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <h1>Stellar Voiid</h1>
+                </a>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Projects <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="projects.html#featured">Featured Projects</a></li>
+                            <li><a href="projects.html#game-jams">Game Jams</a></li>
+                            <li><a href="projects.html#prototypes">Prototypes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Our Projects</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Explore our collection of games and interactive experiences</p>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter section-padding">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="featured">Featured</button>
+                <button class="filter-btn" data-filter="game-jam">Game Jams</button>
+                <button class="filter-btn" data-filter="prototype">Prototypes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="featured" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Featured Projects</h2>
+                <p>Our flagship games and most polished experiences</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="featured" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/projects/featured-1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="project-details.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/featured-1-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Nebula Drift</h3>
+                        <p>An atmospheric space exploration game</p>
+                        <div class="project-tags">
+                            <span>Adventure</span>
+                            <span>Exploration</span>
+                            <span>Single Player</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/projects/featured-2.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="project-details-2.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/featured-2-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chrono Shift</h3>
+                        <p>A time-bending puzzle platformer</p>
+                        <div class="project-tags">
+                            <span>Puzzle</span>
+                            <span>Platformer</span>
+                            <span>Single Player</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Jams -->
+    <section id="game-jams" class="projects-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Game Jam Entries</h2>
+                <p>Projects created under tight time constraints</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Game Jam 1 -->
+                <div class="project-card" data-category="game-jam" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/projects/jam-1.jpg" alt="Game Jam 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="gamejam-1.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/jam-1-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-jam-badge">Ludum Dare 48</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Last Light</h3>
+                        <p>A survival horror game created in 72 hours</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-trophy"></i> #12 Overall</span>
+                            <span><i class="fas fa-calendar"></i> April 2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game Jam 2 -->
+                <div class="project-card" data-category="game-jam" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/projects/jam-2.jpg" alt="Game Jam 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="gamejam-2.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/jam-2-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-jam-badge">Global Game Jam 2023</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Roots of the Past</h3>
+                        <p>A narrative-driven adventure about family heritage</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-users"></i> Team Project</span>
+                            <span><i class="fas fa-calendar"></i> January 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prototypes -->
+    <section id="prototypes" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Prototypes</h2>
+                <p>Experimental projects and proof-of-concepts</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Prototype 1 -->
+                <div class="project-card" data-category="prototype" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/projects/proto-1.jpg" alt="Prototype 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="prototype-1.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/proto-1-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-prototype-badge">Prototype</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Neon Vector</h3>
+                        <p>A retro-styled endless runner with a twist</p>
+                        <div class="project-tags">
+                            <span>Endless Runner</span>
+                            <span>Retro</span>
+                            <span>Mobile</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Prototype 2 -->
+                <div class="project-card" data-category="prototype" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/projects/proto-2.jpg" alt="Prototype 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="prototype-2.html" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-preview" data-featherlight="assets/images/projects/proto-2-full.jpg">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-prototype-badge">Prototype</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Quantum Shift</h3>
+                        <p>A first-person puzzle game with dimension shifting</p>
+                        <div class="project-tags">
+                            <span>Puzzle</span>
+                            <span>First-Person</span>
+                            <span>Experimental</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container" data-aos="zoom-in">
+            <h2>Want to Work With Us?</h2>
+            <p>We're always open to collaborations and new opportunities.</p>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Stellar Voiid Studios</h3>
+                    <p>Creating immersive gaming experiences and digital content that push the boundaries of imagination.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="projects.html#featured">Featured</a></li>
+                        <li><a href="projects.html#game-jams">Game Jams</a></li>
+                        <li><a href="projects.html#prototypes">Prototypes</a></li>
+                        <li><a href="projects.html">View All</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates on new releases and development progress.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Stellar Voiid Studios. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
